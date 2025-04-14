@@ -16,6 +16,6 @@ def line():
     print('P1', p1)
     print('P2', p2)
     distancia= ((p2[0]-p1[0])**2+(p2[1]-p1[1])**2)*0.5
-    print('La distancia entre ellos es:' distancia)
+    print('La distancia entre ellos es:', distancia)
 
 
