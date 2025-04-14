@@ -13,9 +13,9 @@ def line():
     p1= (x1, A*x1+B)
     p2= (x2, A*x2+B)
     print('\nDados los siguientes puntos:')
-    print('P1', p1)
-    print('P2', p2)
+    print('\tP1', p1)
+    print('\tP2', p2)
     distancia=math.dist(p1,p2)
-    print('La distancia entre ellos es:', distancia)
+    print('\nLa distancia entre ellos es:', distancia)
 
 
