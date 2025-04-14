@@ -12,7 +12,7 @@ def line():
     print(f"\tY= {A}x + {B}")
     p1= (x1, A*x1+B)
     p2= (x2, A*x2+B)
-    print('Dados los siguientes puntos:')
+    print('\nDados los siguientes puntos:')
     print('P1', p1)
     print('P2', p2)
     distancia=math.dist(p1,p2)
